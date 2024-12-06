@@ -1,0 +1,33 @@
+.homebody{
+    background-color: rgb(238, 3, 3);
+    height: 100vh;
+    width: 300px;
+}
+.sidebar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+.image-style1{
+    height: 100px;
+    width: auto;
+}
+/* partie du header */
+.header-p{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+.image-style3 {
+    width: 50px;
+    height: auto;
+    border-radius: 5px;
+    /* Autres styles */
+  }
+.form-header{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

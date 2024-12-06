@@ -1,0 +1,72 @@
+.btnuser{
+    background-color: rgb(94, 231, 94);
+    margin-left: 15px;
+    border-radius: 1cap;
+}
+:hover .btnuser{
+    background-color: rgb(92, 214, 92);
+}
+/* .lg{
+    width: 100px;
+} */
+.table{
+    width: 100%;
+    margin: auto;
+    display: block;
+    height: 85vh;
+    background-color: rgb(243, 243, 243);
+}
+.tab{
+    width: 95%;
+    margin: auto;
+   padding-top: 1%;
+}
+.divbtnadd{
+    width: 150px;
+    display: block;
+    margin-bottom: 15px;
+}
+.btnadd1{
+   width: 130px;
+   background-color: rgb(10, 204, 10);
+   padding: 12px;
+   color: white;
+   border-radius: 1ch;
+   border: 10em;
+   box-shadow: 3px 3px 3px rgba(1, 83, 1, 0.603);
+   cursor: pointer;
+   font-size:medium;
+   font-weight: 500;
+}
+.btnadd1:hover{
+    background-color: rgb(8, 187, 8);
+}
+.btndelete{
+    width: 130px;
+    background-color: rgb(236, 5, 5);
+    padding: 12px;
+    color: white;
+    border-radius: 1ch;
+    border: 10em;
+    cursor: pointer;
+    font-size:medium;
+    font-weight: 500;
+ }
+ .btndelete:hover{
+     background-color:  rgb(177, 7, 7);
+ }
+.form-group{
+    margin-top: 2px;
+}
+.body-form{
+    width: 100%;
+    align-items: center;
+    justify-self: center;
+    display: block;
+}
+.imag{
+    height: 50px;
+    width: 50px;
+    border-radius: 200%;
+    background-color: rgb(250, 50, 50);
+}

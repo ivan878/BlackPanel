@@ -1,0 +1,115 @@
+.dash-body{
+    height: 80vh;
+    background-color: rgb(243, 243, 243);
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+   
+}
+.row{
+    display: flex;
+
+}
+.sp{
+    justify-content: space-between;
+    padding: 20px;
+}
+.bg{
+    color: rgb(255, 255, 255);
+    margin: 25px;
+}
+.text{
+    font-weight: bold;
+
+}
+.card{
+     display: block;
+     height: 250px;
+     width: 23%;
+     background-color: rgb(236, 26, 26); 
+     border-radius: 2ch;
+
+    }
+.card2{
+    display: block;
+    height: 250px;
+    width: 23%;
+    background-color: rgb(255, 215, 156); 
+    border-radius: 2ch;
+}
+.card3{
+    display: block;
+    height: 250px;
+    width: 23%;
+    background-color: rgb(237, 238, 237); 
+    border-radius: 2ch;
+}
+.card4{
+    display: block;
+    height: 250px;
+    width: 23%;
+    background-color: rgb(0, 132, 255); 
+    border-radius: 2ch;
+}
+.column1{
+    display: block;
+    justify-content: center;
+    flex-direction: column;
+}
+.info{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.text1{
+    display: flex;
+    font-size: 300%;
+    font-weight: bold;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+.mgl{
+    margin-left: 10px;
+}
+.chart{
+    height: 300px;
+    width: 800px;
+}
+.cart{
+    height: 100px;
+    width: 250px;
+    border-radius: 1pc;
+    border: solid 1px rgb(255, 0, 0);
+    box-shadow: 5px 5px 5px rgb(177, 177, 177);
+    background-color: white;
+    padding: 5px;
+}
+.text{
+    color: rgb(45, 121, 236);
+}
+.text-pub{
+    color: rgb(238, 157, 51);
+}
+.text-vid{
+    color: rgb(240, 35, 35);
+}
+.text-sc{
+    color: rgb(77, 76, 76);
+}
+.chart{
+   
+    height: 400px;
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+  
+}
+.infos{
+    height: 400px;
+    background-color: rgb(247, 141, 4);
+    width: 30%;
+}
+.cha{
+    margin-top: 20px;
+   
+}

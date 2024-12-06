@@ -1,0 +1,128 @@
+.loginbody{
+    height: 100vh;
+    background-color: rgb(255, 99, 99);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.loginform{
+    width: 60%;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    height: 70vh;
+    border-radius: 2ch;
+}
+.pos{
+    position: relative;
+    height: 100%;
+}
+.lg{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center;
+}
+.htotal{
+ height: 100%;
+}
+.mg{
+    margin: 30px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+
+}
+.center{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.column{
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+.image-style {
+    width: 20px;
+    height: auto;
+    border-radius: 1px;
+    /* Autres styles */
+  }
+.desc{
+    text-align: center;
+    color: rgb(66, 66, 66);
+    font-weight: 400;
+}
+.mgt{
+   align-items: center;
+   margin: auto;
+   width: 90%;
+}
+.fname{
+    font-weight: bold;
+}
+.form-group{
+    margin-bottom: 25px;
+}
+
+:where(.css-dev-only-do-not-override-1kuana8).ant-btn {
+    font-size: 14px;
+    line-height: 1.5714285714285714;
+    height: 45px;
+    padding: 4px 15px;
+    border-radius: 2px;
+    width: 100%;
+}
+:where(.css-dev-only-do-not-override-1kuana8).ant-input-outlined {
+    background: #ffffff;
+    border-width: 1px;
+    border-style: solid;
+    height: 40px;
+    border-color: #d9d9d9;
+}
+
+/* partie image */
+.dsg{
+    margin-left: 5px;
+    background-color: black;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+
+}
+.image-style2 {
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+    /* Autres styles */
+  }
+
+  /* responsive */
+  .hide {
+    display: flex; /* ou inline, inline-block, etc. en fonction de votre mise en page */
+  }
+  
+  /* Masquer l'élément sur les appareils mobiles et tablettes */
+  @media screen and (max-width: 768px) {
+    .hide {
+      display: none;
+    }
+  }
+  .content {
+    padding: 100px;
+    background: rgba(90, 86, 86, 0.05);
+    border-radius: 4px;
+  }
+  .ant-spin-fullscreen {
+    background-color: rgb(0 0 0 / 66%);
+  }
+  .error{
+    color: red;
+    font-weight: 500;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }

@@ -1,0 +1,40 @@
+.bodyvid{
+    position: relative;
+    max-width: 90%;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+.body-gl{
+    height: 85vh;
+    background-color: rgb(243, 243, 243);
+    margin: auto;
+    overflow: hidden;
+    overflow-y: auto; 
+}
+.add{
+    border-radius: 10%;
+    background-color: aliceblue;
+    border: dotted  rgb(0, 140, 255);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.add:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.ds{
+    background-color: rgb(238, 233, 233);
+    height: 200px;
+    width: 250px;
+}
+.vid{
+    height: auto;
+    width: 100%;
+}
